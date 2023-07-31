@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import ColorChanger from './components/colorChanger';
-import Car from './components/car';
-import Details from './components/details';
-import List from './components/List';
+// import './index.css';
+import MyForm from './components/form'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Details/>
-    <Car/>
-    <List/>
+    <MyForm/>
   </React.StrictMode>
 );
 
