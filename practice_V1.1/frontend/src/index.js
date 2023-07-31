@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import List from './components/list';
-import Test from './components/testList';
+// import ColorChanger from './components/colorChanger';
+import Car from './components/car';
+import Details from './components/details';
+import List from './components/List';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Details/>
+    <Car/>
     <List/>
   </React.StrictMode>
 );
